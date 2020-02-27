@@ -1,0 +1,185 @@
+    [ From max@west.darkside.com (Erik Max Francis)]
+
+			    RELATIVISTIC EFFECTS UNDER CONSTANT THRUST
+
+A body of mass m0 is accelerating under constant thrust F.  Initial
+(rest) acceleration is a0 = F/m0.  t is the elapsed time as measured
+from the rest frame.
+
+Effective acceleration (from the rest frame):
+
+    a = a0 (1 - v^2/c^2)^(3/2).
+
+Accumulated velocity (from the rest frame):
+
+    v = [t^2/(a0^2 + c^2 t^2)].
+
+Accumulated displacement (from the rest frame):
+
+    r = (a0^2 + c^2 t^2)^(1/2) - c^2/a0.
+
+Accumulated gamma term:
+
+    gamma = (c^2 + a0^2 t^2)/c^2.
+
+Elapsed ship time (as a function of rest time):
+
+    tau = (c/a0) ln [(1 + a0^2 t^2/c^2)^(1/2) + a0 t/c].
+
+
+						      FUEL CONSUMPTION
+
+A ship with mass m0 and initial mass of fuel f0 has a drive which is
+capable of constant fuel consumption K and an exhaust velocity
+(specific impulse) E.
+
+Actual acceleration as a function of time:
+
+    a = E K/(m0 + f0 - K t).
+
+Time taken to exhaust fuel:
+
+    T = f0/K.
+
+Accumulated velocity as a function of time:
+
+    v = E [ln (m0 + f0) - ln (m0 + f0 - K t)].
+
+Final change in velocity after exhausting fuel:
+
+    v|T = E [ln (m0 + f0) - ln m0].
+
+Final displacement after exhausting fuel:
+
+    r|T = (E/K) [m0 [ln m0 - ln (m0 + f0)] + f0].
+
+
+					 RELATIVISTIC FUEL CONSUMPTION
+
+A ship with mass m0 and initial mass of fuel f0 has a drive which is
+capable of constant fuel consumption K and an exhaust velocity
+(specific impulse) E.
+
+Final change in velocity after exhausting fuel, taking into account
+relativity:
+
+    v|T = (c E D)/(c^2 + E^2 D^2)^(1/2),
+
+where D = ln (m0 + f0) - ln m0.
+
+
+						    MOMENTS OF INERTIA
+
+Do you want these?
+
+
+						  RINGWORLD PARAMETERS
+		      (figures from _The Ringworld Role-Playing Game_)
+
+Mass of Ringworld:
+
+    m = 2.1 x 10^27 kg.
+
+Radius of Ringworld:
+
+    r = 1.5288 x 10^11 m.
+
+Width of Ringworld:
+
+    w = 1.604 x 10^9 m.
+
+Thickness of Ringworld:
+
+    t = 30 m.
+
+Spin-induced "gravity" at surface of Ringworld:
+
+    a = 9.73 m/s^2.
+
+Apparently angular size of portion of Ringworld floor as seen from
+surface of Ringworld a central angle theta away:
+
+    phi = arctan [(s/r)/(4 sin theta)].
+
+Tension stress induced in Ringworld by rotation:
+
+    sigma = m a/(2 pi w t).
+
+
+						    ANALYSES OF ORBITS
+
+A body falls from a distance r0 to a distance r from a central body
+with mass M.
+
+Accumulated deltavee:
+
+    deltav = [2 G M/(1/r - 1/r0)].
+
+
+A planet with mass m is in orbit around a Sun with mass M.  The
+planet's orbit has eccentricity e and angular momentum l.
+
+Energy associated with orbit:
+
+    E = [G^2 m^3 M^2/(2 l^2)] (e^2 - 1).
+
+For an ellipse with semimajor axis a:
+
+    E = -G m M/(2 a).
+
+
+					 VELOCITIES OF BODIES IN ORBIT
+
+A planet is in orbit around a Sun with mass M.	The following
+represents the velocity v at a point when the planet is at a distance
+r from the primary.
+
+For a circle:
+
+    v = (G M/r)^2.
+
+For an ellipse (with semimajor axis a):
+
+    v = [2 G M [1/r - 1/(2 a)]].
+
+For a parabola:
+
+    v = (2 G M/r)^2.
+
+For an hyperbola with eccentricity e and minimum planet-Sun distance
+alpha:
+
+    v = [2 G M [1/r + (e - 1)/(2 alpha)]].
+
+
+						     HAWKING RADIATION
+
+For a black hole with mass m, total power output P is
+
+    P = k/m^2
+
+where k is a constant, on the order of 10^34 kg m^2.
+
+Blackbody thermodynamic temperature of black hole with mass m (sigma
+is Stefan-Boltzmann constant):
+
+    T = [(c^4 k)/(16 pi sigma G^2)]^(1/4) (1/m).
+
+For a black hole with initial mass m0, the amount of time required for
+black hole to completely dissolve is
+
+    tau = c^2 m0^3/(3 k).
+
+
+					      GRAVITATIONAL DISRUPTION
+
+Total energy required to completely gravitational disrupt a uniform,
+spherical body of mass M and radius R:
+
+    E = (9/15) G M^2/R.
+
+
+That's most of the stuff I have right now.  Please let me know if you
+have any questions or problems with the above formulae.  If you have
+any other specific problems you'd like to have solutions to (I love to
+solve problems), let me know and I'll see if I can work them out.

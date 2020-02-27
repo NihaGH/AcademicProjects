@@ -1,0 +1,1 @@
+hadoop jar /home/nihatompi/Desktop/MoviesManager.jar -parentDir=/user/tompi -inFolder=/MovieInput -outFolder=/MovieOutput -terms=kkk\|hhh -imdbId=tt1530535 -releaseDate=23.12.1995
